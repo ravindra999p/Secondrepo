@@ -1,0 +1,22 @@
+
+header {
+  padding: 40px;
+  text-align: left;
+   background: #696969;
+  color: #00FFFF ;
+  font-size: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+div.a{
+			text-align: center;
+		}
+
+
+
+
+

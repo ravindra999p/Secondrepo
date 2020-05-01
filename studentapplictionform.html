@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>
+ Application Form
+ </title>
+  </head>
+  
+ <header>
+ 	<p> Author : Developed by Someone </p>
+ 	<p> This page is used to register the student information</p>
+ </header>
+ <hr>
+ <div class="a">		
+ <h1 style="font-family:verdana;""font-size:60px;"> Student Application Form </h1>
+</div>
+ <body style="background-color:#7FFF00;">
+ 	 
+
+ 	<p><a href="student.txt" target="blank">
+ 		<img src="cute.jpg" alt="cute reading" id="changeImage" onmouseover="this.src='cutegirl.jpg'" onmouseout="this.src='cute.jpg'"style="float:right;width:400px;height:400px;">
+ 	</a>
+</p>
+ 
+
+	<form name="studentapplicationform" class="studentapplicationform" action="" onsubmit="return validateForm()">
+	<p>
+	First Name:
+	<input type="text" name="firstName" id="firstName" >
+	Middle:
+	<input type="text" name="middleName" id="middleName">
+	Last Name:
+	<input type="text" name="lastName" id="lastName"><br>
+</p>
+
+Date:
+	<input type="date" name="date">
+<br>
+<br>
+SSN:
+<input type="ssn" name="ssn"><br><br>
+
+<h3>Permanent Address:</h3>
+
+ Line1:
+<input type="text" name="Address line1">
+<input type="text" name="Address line1"><br><br>
+ Line2:
+<input type="text" name="Address line2">
+<input type="text" name="Address line2"><br><br>
+City
+<input type="text" name="shipCity" id="shipCity" >  
+state/provinance/region
+<input type="text" name="state/provinance/region"><br><br>
+Postal/Zipcode
+<input type="text" name="shipZipCode" id="shipZipCode">
+
+Country:<select name="country" id="shipCountry">
+	<option value="Select your country"> Select your country </option>
+
+<option value="India"> INDIA</option>
+<option value="USA">USA</option>
+<option value="AUSTRALIA">AUSTRALIA</option>
+<option value="South Africa">SOUTH AFRICA</option>
+<option value="BANGLADESH">BANGLADESH</option>
+<option value="SRILANKA">SRILANKA</option>
+<option value="NEWZLAND">NEWZLAND</option>
+<option value="ENGLAND">ENGLAND</option>
+<option value="CHINA">CHINA</option>
+</select><br>
+
+
+<h3>Resedential Address:</h3>
+
+ Line1:
+<input type="text" name="Address line1">
+<input type="text" name="Address line1"><br><br>
+ Line2:
+<input type="text" name="Address line2">
+<input type="text" name="Address line2"><br><br>
+City
+<input type="text" name="city" id="city" >  
+state/provinance/region
+<input type="text" name="state/provinance/region"><br><br>
+Postal/Zipcode
+<input type="number" name="zipcode" id="zipcode">
+
+Country:<select name="country">
+<option value="india"> INDIA</option>
+<option value="USA">USA</option>
+<option value="AUSTRALIA">AUSTRALIA</option>
+<option value="South Africa">SOUTH AFRICA</option>
+<option value="BANGLADESH">BANGLADESH</option>
+<option value="SRILANKA">SRILANKA</option>
+<option value="NEWZLAND">NEWZLAND</option>
+<option value="ENGLAND">ENGLAND</option>
+<option value="CHINA">CHINA</option>
+
+</select><br>
+<h3>Phone</h3>
+<input type="tel" name="tel" value="###">
+-
+<input type="tel" name="usertel" value="###">
+-
+<input type="tel" name="usertel" value="####">
+<br>
+<h3> Email</h3>
+<input type="text" name="emailAddress" id="emailAddress">
+<h3> Check Boxes</h3>
+<input type="checkbox" name="first option" value="firstoption">First Option <br>
+<input type="checkbox" name="secondoption" value="secondoption">Second Option <br>
+<input type="checkbox" name="thirdoption" value="thirdoption">Third Option <br>
+<h3> Drop down</h3>
+<select name="Dropdown">
+	<option value="firstoption">Permanent Address</option>
+	<option value="secondoption">Resendential Address</option>
+	</select><br><br>
+	<h3>Links For Reference</h3>
+	<table style="width:10%">
+		<tr>
+			<th>Course</th>
+			<th>Links</th>
+			
+		</tr>
+		  <tr>
+    <td>Java</td>
+    <td><a href=https://www.javatpoint.com/java-tutorial target="blank">Javatpoint</a></td>
+    
+  </tr>
+			
+    <td>HTML</td>
+    <td><a href=https://www.w3schools.com/html target="blank">W3Schools </a></td>
+    
+  </tr>
+  <tr>
+  	<td>DBMS</td>
+  	<td><a href=https://www.studytonight.com/dbms target="blank">Studytonight</a></td>
+  	<br>
+  </table>
+  <br>
+  <h3>Text</h3>
+  	<input type="text" name="text"></br><br>
+
+  	<button type="submit" value="Submit" name="Submit"  > Submit </button>
+
+</form>
+
+
+  
+
+
+<div class="a">
+<footer>
+  <h2>Copyrights Reserved 2020</h2>
+  <h3> Connect with us</h3>
+  <img src="facebook.jpg" alt="Facebook" width="90" height="90" >
+  </a>
+  <a href="https://www.ekthasol.com/" target="blank" >
+   <img src="ektha.png" alt="Ektha" width="90" height="90" >
+   </a>
+   <a href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin " target="blank" >
+   <img src="gmail.jpg" alt="Gmail" width="90" height="90" >
+   </a>
+   <a href="https://www.yahoo.com/" target="blank" >
+   <img src="yahoo.png" alt="Yahoo" width="90" height="90" >
+   </a>
+   </div>
+</footer>
+
+
+
+<script type="text/javascript" src="validate.js"></script>
+<script> 
+alert('Hello');
+alert('USA');
+</script>
+
+ </body>
+ </html>
+ 
